@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where the wildcard route ('*') for handling not found pages always matches, regardless of whether other routes match first. The solution involves carefully ordering routes and using the `useLocation` hook for more sophisticated route matching.
